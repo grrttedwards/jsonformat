@@ -1,6 +1,8 @@
 # jsonformat
 Python program to ingest json and whitespace format it.
 
+<sup>It also alphabetizes keys within each level!</sup>
+
 _Be careful._ The formatted json will be written back to the file specified.
 
 Usage: `python jsonformat.py filename`
