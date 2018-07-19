@@ -14,3 +14,4 @@ formatted_contents = json.dumps(contents, sort_keys=True, indent=4)
 
 with open(file_name, "w") as file:
 	file.write(formatted_contents)
+	file.write('\n')
